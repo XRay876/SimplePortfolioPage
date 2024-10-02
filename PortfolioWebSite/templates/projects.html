@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>About Me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/main.css'>
+    
+</head>
+
+<body>
+
+    <div class="navigation-bar container">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="about-block">
+            <section>
+                <h2>Projects</h2>
+
+                <ul>
+                    <li><strong>CurioSpace</strong> (Online chatting with searching for people with similar interests) </li>
+                    <li><strong>GodsTutor</strong> (Website with big tutorial about Scandinavian and Greek gods)</li>
+                    <li><strong>ChaseUrExpenses</strong> (Website to track your expenses)</li>
+                    <li><strong>RosAtomSite</strong> (Private website for Russian state corporation)</li>
+                    <li><strong>PortfolioSite</strong></li>
+                </ul>
+
+                <h3>How I built the CurioSpace</h3>
+                <ol>
+                    <li>Use Django for backend</li>
+                    <li>Coded the frontend using HTML, CSS, and JavaScript, including AJAX</li>
+                    <li>Integrated WebSocket for Online Chat (bcs Http Request couldnt work proprely for this task)</li>
+                    <li>Tested and deployed the app on my VDS server</li>
+                </ol>
+
+                <h2>Logos of CurioSpace</h2>
+                <div class="logos">
+                    <figure>
+                        <img src="../img/logo4.png" alt="CurioSpace Logo">
+                        <figcaption>Small Logo of CurioSpace</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="image_logo" src="../img/logo4.png" alt="CurioSpace Logo">
+                        <h2 class="logo_name">Curio<span class="danger">Space</span></h2>
+                        <figcaption>Full Logo of CurioSpace</figcaption>
+                    </figure>
+                </div>
+                <div class="links-project">
+                    <h2>Links</h2>
+                    <p>Check out the project on my <a href="https://github.com/XRay876/CurioSpace/" target="_blank"><strong>GitHub repository</strong></a>.</p>
+                </div>
+                <h2>Audios</h2>
+                <audio controls>
+                    <source src="../audio/sample.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+    </div>
+       
+        <footer>
+            <p>&copy; 2024 Timofei Semenov</p>
+        </footer>
+
+
+    </div>
+
+</body>
+</html>
